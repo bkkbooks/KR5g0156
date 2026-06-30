@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0156/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0156/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞真太上上清內經
+  date: '2015-08-29 02:58:42.475108'
+  source:
+    repository: kanripo
+    path: KR5g0156
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0156_000-ZTDZ.yaml, hash: 'sha256:c78a03f6fb946b3d70cf9ae0c06b428ecd2bf582d3306541a0802d151757d481'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0156_000-ZTDZ.markers.yaml, hash: 'sha256:1abb66dfaa956a6f5c8cc0aed6c76d225eaea9c979e998b57c03525216e485dd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0156_SJB_000-330631b
+    span:
+    - body
+    - 0
+    - 368
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:5ff104ec1d669feebb7801c1537bf58385666f1b40eab9b6e24072a0f0f765f5
